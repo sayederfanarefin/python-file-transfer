@@ -1,4 +1,10 @@
 #https://www.bogotobogo.com/python/python_network_programming_server_client_file_transfer.php
+
+# 40.113.193.118 vm1
+# 40.77.109.130 vm2
+# 40.86.72.115 vm3
+
+
 import socket                   # Import socket module
 
 port = 5000                    # Reserve a port for your service.

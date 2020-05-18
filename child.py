@@ -1,7 +1,7 @@
 import socket                   # Import socket module
 
 s = socket.socket()             # Create a socket object
-host = "70.37.98.111"  #Ip address that the TCPServer  is there
+host = "0.0.0.0"  #Ip address that the TCPServer  is there
 port = 5000                     # Reserve a port for your service every new transfer wants a new port or you must wait.
 
 s.connect((host, port))
@@ -22,3 +22,5 @@ f.close()
 print('Successfully get the file')
 s.close()
 print('connection closed')
+
+def my_function():
